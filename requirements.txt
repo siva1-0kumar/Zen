@@ -1,1 +1,15 @@
-websockets
+# dependencies
+pip install -r requirements.txt
+
+ # Add FFmpeg binaries
+#Place ffmpeg.exe and ffprobe.exe in:
+./ffmpeg/ffmpeg-7.1.1-essentials_build/bin/
+
+#Running the Server:
+python exotel_websocket_server.py
+
+#Testing
+python test_tts_and_websocket.py
+
+#Test WebSocket:
+python test_websocket_client.py
